@@ -165,3 +165,8 @@ $ ./gradlew :app:clean :app:test --scan
 <p align="center">
 <img width="60%" height="60%" src="https://user-images.githubusercontent.com/120980/177334631-5c94bbc3-5279-4fee-b202-ab4dc0599e17.png">
 </p>
+
+---
+## Solution Reference
+
+If you get stuck you can refer to the `solution` branch of this repository.
