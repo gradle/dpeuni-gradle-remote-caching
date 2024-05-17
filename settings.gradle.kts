@@ -22,3 +22,13 @@ gradleEnterprise {
 
 rootProject.name = "dpeuni-gradle-remote-caching"
 include("app")
+
+buildCache {
+    local {
+        isEnabled = false
+    }
+    remote(gradleEnterprise.buildCache) {
+        isEnabled = true
+        isPush = true
+    }
+}
