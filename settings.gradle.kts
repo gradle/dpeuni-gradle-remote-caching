@@ -17,6 +17,8 @@ gradleEnterprise {
         capture {
             isTaskInputFiles = true
         }
+        tag("dpeuni-gradle-remote-caching")
+        value("Course", "Incremental Builds and Build Caching")
     }
 }
 
